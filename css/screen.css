@@ -156,12 +156,12 @@ li:last-child {
   line-height: 1.777em; /* 45/25.313 = 1.777em */
 }
 
-#resume-page #employer2-name {
+#travel #employer2-name {
   font-size: 1.265em; /* 25.313px/20px = 1.265em */
   line-height: 1.777em; /* 45/25.313 = 1.777em */
 }
 
-#travel #south-beach {
+#cuban-page #south-beach {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
@@ -230,7 +230,7 @@ video {
 #footer{
   padding-top: 1.2em; /* 1 girdline */
   background-color: #c9d6cd;
-  /*position: absolute;*/
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -238,7 +238,7 @@ video {
 
 /* ===== LAYOUT STYLES ===== */
 
-#cuban-page{
+#travel{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
   background-color: #bce0c9; /* https://www.google.com/#q=html+color+picker */ 
 }
@@ -284,18 +284,18 @@ video {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
-#cuban-page #nav-links {
+#travel #nav-links {
   position: absolute;
   top: 0;
   padding: 0;
   line-height: 1;
 }
 
-#cuban-page #nav-links li {
+#travel #nav-links li {
   display: inline-block;
 }
 
-#cuban-page #nav-links li a {
+#travel #nav-links li a {
   display: block;
   background-color: #244166;
   color: #ced6e0;
@@ -305,7 +305,7 @@ video {
   padding-left: 0.32em;/* 0.65/2 */
 }
 
-#cuban-page #south-beach {
+#travel #south-beach {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
@@ -414,7 +414,7 @@ video {
 
   #pic1{
     width:52.93%; /* 264.69/500 = 0.52938 */
-    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
+    margin-left:50.85%; /* (235.28+22)/500 = 0.50856 */
   }
 
   #cafe-cubano{
@@ -443,7 +443,7 @@ video {
   }
   #lafitness-logo{
     width:52.93%; /* 264.69/500 = 0.52938 */
-    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
+    margin-left:50.85%; /* (235.28+22)/500 = 0.50856 */
   }
   #photo-h4{
     width: 95%;
@@ -458,6 +458,9 @@ video {
   #about-h1{
     text-align:center;
   }
+   #south-beach{
+    text-align:center;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -468,17 +471,13 @@ video {
   padding: 0;
   line-height: .60;
   }
-
-@media screen and (max-width: 300px) {
-
-  #cuban-page #nav-links {
+  
+  #travel #nav-links {
   position: absolute;
   top: 0;
   padding: 0;
   line-height: .60;
   }
-
-@media screen and (max-width: 300px) {
 
   #about-page #nav-links {
   position: absolute;
@@ -486,5 +485,11 @@ video {
   padding: 0;
   line-height: .60;
   }
-}
 
+  #page-one #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: .60;
+  }
+}
